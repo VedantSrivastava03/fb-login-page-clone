@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="stylesheet" href="input.css">
+    <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+    <title>Facebook – log in or sign up</title>
+</head>
+<body class="bg-gray-100">
+    <div class="container mt-10 pr-40 flex  items-stretch justify-center pt-20 ">
+        <div class="left max-w-xl mx-14 mt-16">
+            <img class="w-80" src="fb.svg" alt="fb logo">
+            <p class="text-3xl mx-7">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right flex flex-col bg-white p-3 rounded-xl w-[26rem] border-2 border-gray-300 relative">
+            <input class="p-4 h-12 my-2 border border-1 border-gray-200 rounded-lg outline-blue-400 font-sans " type="text" placeholder="Email adress or phone number">
+            <input class="p-4 h-12 my-2 border border-1 border-gray-200 rounded-lg outline-blue-400 " type="password" placeholder="Password">
+            <button class="bg-blue-500 text-white my-2 py-3 font-bold rounded-md text-xl hover:bg-blue-600 ">Log in</button>
+            <span class="text-blue-500 text-center text-sm my-2 hover:underline cursor-pointer">Forgotten password?</span>
+            <hr class="my-2">
+            <button class="bg-green-600 text-white my-2 mx-auto p-3 rounded-md font-medium mb-8 hover:bg-green-700 w-[12rem] items-center">Create New Account</button>
+            <span class="absolute -bottom-10 text-sm font-sans pl-8 "><span class="  font-bold cursor-pointer hover:underline">Create a Page</span> for a celebrity, brand or business.</span>
+
+        </div>
+    </div>
+        
+    </div>
+</body>
+</html>
